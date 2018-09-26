@@ -20,6 +20,7 @@ var inc = function(number){
 
 var dec = function(number){
   return number -= 1;
+<<<<<<< HEAD
 };
 
 var makeInt = function(number) {
@@ -28,4 +29,10 @@ var makeInt = function(number) {
 
 var preserveDecimal = function(number){
   return parseFloat(number);
+=======
+}
+
+var makeInt = function(number) {
+  return parseInt(number, 10);
+>>>>>>> 8f652fb5197f8a6919cd4dafcf448ca660a60613
 };
